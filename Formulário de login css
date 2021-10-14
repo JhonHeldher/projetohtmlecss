@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2? família=Andada+Pro:wght@400;500;600;700;800&display=swap'); /*link de fonte*/
+
+/* resetar margens */
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Andada Pro", sans-serif;
+}
+
+/* cor de fundo */
+
+body {
+    background: linear-gradient(to left,rgb(134, 134, 134), #b8b8b8);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* quadrado de login */
+
+main.container {
+    background: linear-gradient(to left,rgb(190, 190, 190), #f3f3f3);
+    min-width: 420px;
+    min-height: 50vh;
+    padding: 4rem;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 2rem 4rem;
+}
+
+/* texto "Entra" */
+
+main h2 {
+    font-weight: 600;
+    margin-bottom: 3rem;
+    position: relative;
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+}
+
+/* linha embaixo do texto */
+
+main h2::before {
+    content: '';
+    position: absolute;
+    height: 6px;
+    width: 140px;
+    bottom: 3px;
+    margin-top: 1rem;
+    margin-bottom: -0.5rem;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #010e7a,#5162fd);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* butão voltar */
+
+.back {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    background: linear-gradient(45deg, #010e7a,#5162fd);
+    font-size: 0.9rem;
+    text-align: left;
+    padding: 0.4rem;
+    border-radius: 4px;
+    cursor: pointer; 
+} 
+ 
+/* cor do texto"voltar" */
+
+.back a {
+    text-decoration: none;      
+    color: rgba(233, 233, 233, 0.904);
+}   
+.input-field {
+    position: relative;
+}
+
+form .input-field:first-child {
+    margin-bottom: 1.5rem;
+}
+
+/* linha embaixo do input */
+
+.input-field .underline::before {
+    content: '';
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    bottom: -5px;
+    border-radius: 6px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* animação da linha */
+
+.input-field .underline::after {
+    content: '';
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(45deg,#010e7a,#5162fd);
+    border-radius: 6px;
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+}
+
+.input-field input:focus ~ .underline::after {
+    transform: scaleX(1);
+}
+
+/* caixa do input digite seu  */
+
+.input-field input {
+    background: linear-gradient(to left,rgb(190, 190, 190), #f3f3f3);
+    width: 100%;
+    height: 45px;
+    padding: 0 0.5rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.4rem;
+    outline: none;
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(14, 14, 14, 0.822);
+}
+
+.input-field input::placeholder {
+    color: rgba(2, 2, 2, 0.644);
+}
+
+/* butão entra */
+
+form input[type="submit"] {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    width: 100%;
+    height: 3rem;
+    background: linear-gradient(to left,#010e7a, #5162fd);
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #010e7a, #5162fd);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+/* ou conecte  */
+
+.footer span {
+    color: rgba(219, 219, 219, 0.7);
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.footer .social-field {
+    padding: 0.4rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.footer .social-field a i {
+    margin: 0 0.5rem;
+    width: 15px;
+}
+
+.footer .social-field a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .social-field.google {
+    background: linear-gradient(to right, #3a78b3, #1a5994);
+}
+
+.footer .social-field.facebook {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+.footer .social-field.cadastro {
+    background: #1b1b1b;
+}
+
+.footer .social-field.cadastro a {
+    text-decoration: none;
+    color:whitesmoke;
+    width: 17px;
+
+}
