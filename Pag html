@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="folha de estilo" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="principais">
+        <span>Top destinos mais buscados hoje no Brasil</span>
+    </div>
+
+    <div class="companhias">
+        <span>Companhias aéreas preferidas dos viajantes</span>
+    </div>
+    
+    <div class="card">
+        <span>Escolha o melhor voo para a sua próxima aventura</span>
+    </div>    
+
+    <main class="cabeca">
+         <!-- position fixed -->
+        <div  class="inicio"> 
+
+                    <a href="#">
+                       Decole
+                    </a>
+
+        </div>
+
+        <div class="pesquisa">
+
+            <input type="search" name="pesquisa" id="pesquisa"
+                    placeholder="Pesquisar Destino">
+                  <button>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a></button>
+        </div>    
+
+        <div class="login">
+            <a href="#">
+                Entrar
+            </a>                              
+        </div>
+
+        <div class="cadastro">
+            <a href="#">
+                Cadastrar
+            </a>
+        </div>
+ 
+    </main>
+    
+    <main class="top">
+ 
+        <section class="top">
+            <a href="/lugares-para-viajar/sao+paulo">
+            <img src="https://media.staticontent.com/media/pictures/09a38ad1-8377-47b5-994a-a11c63b2301b" alt="seu paulo">
+            <span>Seu Paulo</span>
+            </a>
+        </section>
+
+        <section class="top">
+            <a href="/lugares-para-viajar/rio+de+janeiro">
+            <img src="https://media.staticontent.com/media/pictures/9fd2019a-f7d2-44e6-b299-be006c778f58" alt="rio janero">
+            <span>Rio Janero</span>
+            </a>
+        </section>
+
+        <section class="top">
+            <a href="/lugares-para-viajar/recife">
+            <img src="https://media.staticontent.com/media/pictures/7c099ab2-7f78-4322-b3ce-64f5d4d6f30f" alt="rei do chifre">
+            <span>Rei do Chifre</span>
+            </a>
+        </section>
+                 
+
+            <section class="top">
+            <a href="/lugares-para-viajar/salvador">
+            <img src="https://media.staticontent.com/media/pictures/8507e130-d113-4e7b-bb26-1ebe65564498" alt="salva ador">
+            <span>Salva ador</span>
+            </a>
+        </section>
+
+    </main>
+
+    <main class="voo">
+
+        <section class="voo">
+            <a href="https://www.latamairlines.com/br/pt">
+            <img src="imagem/LATA.png" alt="Voe LATA">
+            <h2>Voe LATA</h2>
+            </a>
+        </section>
+         
+        <section class="voo">
+            <a href="https://www.voegol.com.br/">
+            <img src="imagem/GOU.png" alt="Voe GOU">
+            <h2>Voe GOU</h2>
+            </a>
+        </section>
+
+        <section class="voo">
+            <a href="https://www.voeazul.com.br/">
+            <img src="imagem/AZU.png" alt="Voe AZU">
+            <h2>Voe AZU</h2>
+            </a>
+        </section>
+        
+    </main>
+
+    <main class="cards">
+
+        <section class="cards">
+            <h2>Por que devo comprar uma passagem aérea</h2>
+            <samp>Encontre voos para viajar para onde 
+                quiser e faça com que o céu seja o 
+                seu limite. Temos uma grande 
+                variedade de companhias aéreas, 
+                passagens de avião e destinos. 
+                Confira as melhores ofertas e se 
+                prepare para viajar!</samp>
+            <button>Comprar Agora</button>
+        </section>
+        <section class="cards">
+            <h2>Onde confiro a informação do meu voo?</h2>
+            <samp>Ao pesquisar passagens aéreas 
+                internacionais ou nacionais, você 
+                pode ver a informação sobre os 
+                horários de saída e chegada de cada 
+                uma, além dos aeroportos, duração 
+                da viagem, número e tempo de 
+                escalas, classe da cabine e a 
+                bagagem incluída. Veja também o 
+                preço final das suas passagens de 
+                avião e as formas de pagamento 
+                disponíveis.</samp>
+            <button>Confira Agora</button>
+        </section>
+        <section class="cards">
+            <h2>Dicas para comprar passagens aéreas</h2>
+            <samp>Na hora de pesquisar suas 
+                passagens aéreas, lembre-se de 
+                conferir o aeroporto de origem e de 
+                destino, a relação preço/duração do 
+                voo e a bagagem incluída na sua 
+                tarifa. Algumas passagens de avião 
+                baratas têm muitas escalas e não 
+                incluem bagagem. Se o seu voo tiver 
+                escalas, verifique se você precisa 
+                trocar de aeroporto.</samp>
+            <button>Saiba Mais</button>
+        </section>
+    </main>
+
+</body>
+</html>
