@@ -1,0 +1,14 @@
+const btnIf = document .querySelector ('.btn');
+
+btnIf.addEventListener('click', function () {
+    document.pag02.classList.toggle('dark-theme')
+
+    var nome = document.body.nome;
+    if (nome == "light-theme") {
+        this.textcontext= 'Dark';
+    }
+    else {
+        this.textcontext='Light';
+    }
+
+});
