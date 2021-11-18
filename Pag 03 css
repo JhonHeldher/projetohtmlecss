@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2? família=Andada+Pro:wght@400;500;600;700;800&display=swap'); /*link de fonte*/
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Andada Pro", sans-serif;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+}
+}
+
+/* .footer {
+    max-height: 32px;
+    margin-bottom: -10rem;
+    margin-top: -5rem;
+} */
+
+.b-example-divider {
+    height: 2rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+
+
+.pag03 {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    background: #F6F9FF;
+    margin-top: 1vh;
+    max-height: 100vh;
+    max-height: 100vh;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.950);
+
+}
+.light-theme{
+    --pag03Background: var(--#F6F9FF);
+    --voosColor: var(--#242424);
+    --cardBackground: var(--#F6F9FF);
+
+}
+.dark-theme{
+    --pag03Background: var(--#242424);
+    --voosColor: var(--whitesmoke);
+    --cardBackground: var(--#333333);
+
+}
+
+main.pag03 .voos {
+    color: #181818a3;
+    padding-bottom: 1%;
+    padding-top: 10%;
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+
+main.cards {
+    display: flex;
+    padding: 32px;
+}
+main.cards section.card {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    box-shadow: 8px 8px 25px rgb(90, 90, 90);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 12%;
+    max-height: 800px;
+    max-width: 30%;
+    margin-left: 32px;
+
+}
+
+/* main.cards section.card:first-child {
+    margin-left: 0;
+} */
+main.cards section.card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.274);
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 600;
+
+}
+
+main.cards section.card.comprar button {
+    background: linear-gradient(to left, #1a2696,#182596);
+    color: whitesmoke;
+    margin-top: 100px;
+
+}
+main.cards section.card.confira button {
+    background: linear-gradient(to left, #1a2696,#182596);
+    margin-top: 40px;
+    color: whitesmoke;
+
+}
+main.cards section.card.saiba button {
+    background: linear-gradient(to left, #1a2696,#182596);
+    margin-top: 45px;
+    color: whitesmoke;
+
+}
+
+
+@media screen and (max-width:880px) {
+
+
+main.pag01 {
+    margin-bottom: -2rem;
+    max-height: 100%;
+}   
+
+    
+    
+main.cards {
+    flex-direction: column;
+    padding: 32px;
+}
+main.cards section.card {
+    
+    max-height: 10%;
+    max-width: 100%;
+    margin-left: 0;font-size: 0.7rem;
+
+
+}
+main.cards section.card h2 {
+    font-size: 1rem;
+}
+
+main.pag03 .voos {
+
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: -2rem;
+    margin-top: 2rem;
+
+}
+
+
+main.cards section.card.saiba  {
+    height: 0;
+    width: 0;
+    color: rgba(0, 0, 0, 0);
+    background: rgb(0, 0, 0,0);
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0);
+    border: none;
+    
+
+}
+
+main.cards section.card.saiba button {
+    width: 0;
+    height: 0;
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0);
+    background: rgb(0, 0, 0,0);
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0);
+
+}
+
+
+} 
