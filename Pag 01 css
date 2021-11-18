@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2? família=Andada+Pro:wght@400;500;600;700;800&display=swap'); /*link de fonte*/
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Andada Pro", sans-serif;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+ 
+.fs-4  {
+    font-size: 4.2rem;
+    text-decoration: none;
+    color:#00000087;
+    font-weight: 900;
+}
+.container {
+    background: #f0f0f0;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.274);
+}
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+
+.pag02 {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    background: var(--pag02Background);
+    margin-top: 1vh;
+    max-height: 100vh;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.950);
+
+    
+}
+
+.baner {
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background: url('../baner/baner.jpg') ;
+} 
+
+main.pag02 .boxviagem {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+    text-align: center;
+    background:whitesmoke;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.274);
+    border-radius: 12px;
+    max-height: 250px;
+    max-width: 680px;
+    height: 280px;
+    width: 100%;
+}
+
+
+
+main.pag02 .boxviagem .pont {
+    display: flex;
+    flex-direction: row;
+    color: #242424;
+    padding: 2rem 0;
+    margin-left: 10px;
+}
+main.pag02 .boxviagem .pont input {
+    cursor: pointer;
+    margin-right: 70%;
+}
+
+main.pag02 .boxviagem .pont .passagens {
+    padding: 0 1rem ;
+    font-size: 1.5rem;
+}
+.passagensopcoes {
+    margin-left: 12px;
+    font-size: 0.9rem;
+}
+
+main.pag02 .boxviagem .inputs {
+    display: flex;
+    flex-direction: row;
+    color: #242424;
+    background:rgba(61, 61, 61, 0.11);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    height: 75px;
+    width: 70%;
+    justify-content: space-around;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+
+
+}
+
+main.pag02 .boxviagem .inputs input {
+    background:#c2c1c1af;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    width: 95%;
+    height: 110%;
+    top: 15px;
+    outline: none;
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+    font-size: 0.9rem;
+    color: rgb(167, 167, 167);
+    font-size: 0.9rem;
+    text-align: left;
+    padding: 0.4rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+main.pag02 .boxviagem a {
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.753);
+    
+}
+
+main.pag02 .boxviagem em {
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.753);
+    font-weight: 600;
+    
+}
+
+
+main.pag02 .boxviagem .inputs ::placeholder {
+    color: rgba(97, 97, 97, 0.753);
+    height: 20px;
+    font-size: 0.7rem;
+
+}
+
+.input-container {
+    height: 20px;
+}
+
+main.pag02 .boxviagem button {
+    background: linear-gradient(to left, #1a2696,#182596);
+    width: 12%;
+    height: 18%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border: 0;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.274);
+    border-radius: 8px;
+}
+.btn {
+    color: #242424;
+}
+.light-theme{
+    --btnColor: var(--#242424);
+    --pag02Background: var(--#F6F9FF);
+    --companhiasColor: var(--#242424);
+    --containerbackground: var(--#F6F9FF);
+
+}
+
+.dark-theme{
+    --pag02Background: var(--#242424);
+    --companhiasColor: var(--whitesmoke);
+    --containerbackground: var(--#f0f0f0); 
+        
+}
+
+main.pag02 .companhias {
+    font-family: sans-serif;
+    color: #181818a3;
+    font-size: 2rem;
+    margin-top: 3rem;
+    font-weight: 600;
+
+
+}
+
+
+main.voo {
+    display: flex;
+    padding: 42px;
+}
+
+main.voo section.voo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background:rgba(27, 27, 27, 0.831);
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.274); 
+    max-height: 820px;
+} 
+
+main.voo section.voo a {
+    text-decoration: none;
+    color:#242424;
+}
+
+main.voo section.voo:first-child {
+    margin-left: 0;
+}
+
+main.voo section.voo img {
+    width: 500px;
+    padding: 1rem;
+    border-radius: 32px;
+    
+}
+
+@media screen and (max-width:1100px) {
+
+main.pag02 .boxviagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-height: 290px;
+    max-width: 480px;
+    height: 220px;
+    width: 100%;
+}
+
+main.pag02 .boxviagem button {
+    width: 20%;
+    height: 20%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+main.pag02 .companhias {
+    margin-top: 6rem;
+    font-size: 1.3rem;
+
+}
+
+
+main.voo section.voo img {
+    width: 300px;
+    padding: 1rem;
+    border-radius: 32px;
+    
+}
+
+@media screen and (max-width:780px) {
+    
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+    font-size: 3.5rem;
+}
+
+main.pag02 .boxviagem {
+    display: flex;
+    font-size: 0.7rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-height: 320px;
+    max-width: 380px;
+    height: 260px;
+    width: 100%;
+}
+
+main.pag02 .boxviagem button {
+    width: 20%;
+    height: 20%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+main.pag02 .companhias {
+    font-size: 1rem;
+
+}
+
+
+main.voo section.voo img {
+    width: 128px;
+    padding: 1rem;
+    border-radius: 32px;
+    
+}
+
+main.pag02 .boxviagem .pont {
+    padding: 2rem 1rem;
+}
+
+
+main.pag02 .boxviagem .pont .passagens {
+    padding: 0 1rem ;
+    font-size: 1rem;
+}
+.passagensopcoes {
+    margin-left: 20px;
+    font-size: 0.55rem;
+}
+
+main.pag02 .boxviagem .inputs {
+    height: 75px;
+    width: 80%;
+
+
+}
+}
