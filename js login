@@ -1,0 +1,18 @@
+const body = document.querySelector("body")
+
+const darkMode = {
+    bg: "#333333",
+    gPanel: "#434343",
+    colorHeadings: "#3664FF",
+    colorText: "#B5B5B5",
+ }
+ 
+var nome = document.body.nome;
+    if (nome == "light-theme") {
+        this.textcontext= 'Dark';
+    }
+    else {
+        this.textcontext='Light';
+}
+ 
+ 
