@@ -1,14 +1,13 @@
-const btnIf = document .querySelector ('.btn');
-
+const darkIf = document.querySelector('.dark');
 btnIf.addEventListener('click', function () {
-    document.pag02.classList.toggle('dark-theme')
-
+    document.pag01.classList.toggle('dark-theme');
+    document.pag02.classList.toggle('dark-theme');
+    document.pag03.classList.toggle('dark-theme');
     var nome = document.body.nome;
-    if (nome == "light-theme") {
+    if (nome == "ligth-theme"){
         this.textcontext= 'Dark';
     }
-    else {
-        this.textcontext='Light';
+    else{
+        this.textcontext='Ligth';
     }
-
 });
