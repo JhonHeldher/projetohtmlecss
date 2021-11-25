@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Andada Pro", sans-serif;
 }
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -41,12 +42,44 @@
   
 
 
+  :root {
+    --white: #ffffff;
+    --whitef: #ececec;
+    --black: #1d1d1d;
+    --blackf: #131313a1;
+    --whitei: #ffffff34;
+    --blacki: #1d1d1d34;
+}
+
+.light-theme{
+    --bg:var(--white);
+    --pag03Background:var(--white);
+    --fontcolor: var(--black);
+    --fontcolorvoos: var(--black);
+    --cards:var(--whitef);
+    --fontcolorcard:var(--black);
+
+}
+.dark-theme {
+    --bg:var(--black);
+    --pag03Background:var(--black);
+    --fontcolor:var(--white);
+    --fontcolorvoos:var(--white);
+    --cards:var(--blackf);
+    --fontcolorcard:var(--white);
+}
+
+body {
+    background: var(--bg);
+    --color: #e7e7e7;
+}
+
 .pag03 {
     display: flex;
     flex-direction:column;
     align-items: center;
     text-align: center;
-    background: #F6F9FF;
+    background: var(--pag03Background);
     margin-top: 1vh;
     max-height: 100vh;
     max-height: 100vh;
@@ -54,21 +87,9 @@
     color: rgba(0, 0, 0, 0.950);
 
 }
-.light-theme{
-    --pag03Background: var(--#F6F9FF);
-    --voosColor: var(--#242424);
-    --cardBackground: var(--#F6F9FF);
-
-}
-.dark-theme{
-    --pag03Background: var(--#242424);
-    --voosColor: var(--whitesmoke);
-    --cardBackground: var(--#333333);
-
-}
 
 main.pag03 .voos {
-    color: #181818a3;
+    color: var(--fontcolorvoos);
     padding-bottom: 1%;
     padding-top: 10%;
     font-size: 2rem;
@@ -86,7 +107,8 @@ main.cards section.card {
     flex-direction:column;
     align-items: center;
     text-align: center;
-    background: white;
+    color: var(--fontcolorcard);
+    background: var(--cards);
     box-shadow: 8px 8px 25px rgb(90, 90, 90);
     padding: 1rem 1.5rem;
     border-radius: 8px;
