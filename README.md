@@ -1,14 +1,16 @@
 # projeto html,css e js
 Este é um formulário de login simples e responsivo feito com HTML, CSS e JSscript usando transições.
-Este projeto foi feito para uma atividade da facudade
+Este projeto foi feito para uma atividade da facudade.
 
-Resultado Final
+Uma tela de ‘login’ e seu modo dark.
+Resultado Final.
+
 
 ![log](https://user-images.githubusercontent.com/92549577/142514671-3d52620e-6593-4519-bf23-59d5d5d93486.jpeg)
 
-![Pag Dark](https://user-images.githubusercontent.com/92549577/143490131-1f3fb14a-daba-4a7f-b77b-91e12209d94b.jpg)
 
-com sua versão mobile final
+
+com sua versão mobile final.
 
 
 
@@ -21,7 +23,8 @@ com sua versão mobile final
 
 
 
-eta é uma pag relacionada a agências de viagem
+eta é uma pag relacionada a agências de viagem.
+Uma tela dA ‘Pag’ e seu modo dark.
 
 
 
@@ -29,10 +32,17 @@ eta é uma pag relacionada a agências de viagem
 ![Pag](https://user-images.githubusercontent.com/92549577/142515387-a21138b6-158e-4c46-9227-69b6a199366d.jpg)
 
 
+![Pag Dark](https://user-images.githubusercontent.com/92549577/143490131-1f3fb14a-daba-4a7f-b77b-91e12209d94b.jpg)
 
 
-com sua versão mobile final
+
+com sua versão mobile final.
 
 
 
 ![Pag Mobile](https://user-images.githubusercontent.com/92549577/142515052-76d5eef5-5960-4b86-bda7-f4fcb3edc0f0.jpg)
+![Pag Mobile Dark](https://user-images.githubusercontent.com/92549577/143490579-4891535f-3858-4182-b709-4abc18b7d06d.jpg)
+
+
+
+
