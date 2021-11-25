@@ -25,7 +25,7 @@ com sua versão mobile final.
 
 
 eta é uma pag relacionada a agências de viagem.
-Uma tela dA ‘Pag’ e seu modo dark.
+Uma tela da ‘Pag’ e seu modo dark.
 
 
 
@@ -39,7 +39,8 @@ Uma tela dA ‘Pag’ e seu modo dark.
 
 com sua versão mobile final.
 
-![Pag Mobile](https://user-images.githubusercontent.com/92549577/143491579-c4ae0644-b881-4945-af53-288d71b3b5a3.jpg)
+
+![Pag Mobile](https://user-images.githubusercontent.com/92549577/143491756-9a164144-911d-47b5-9dac-bbf8a68945c6.jpg)
 ![Pag Mobile Dark](https://user-images.githubusercontent.com/92549577/143490579-4891535f-3858-4182-b709-4abc18b7d06d.jpg)
 
 
