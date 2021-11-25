@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2? família=Andada+Pro:wght@400;500;600;700;800&display=swap'); /*link de fonte*/
 
-/* resetar margen*/
+/* resetar margens */
 
 * {
     margin: 0;
@@ -10,11 +10,41 @@
     font-family: "Andada Pro", sans-serif;
 }
 
+:root {
+    --white: #ffffff;
+    --whitef: #ececec;
+    --black: #1d1d1d;
+    --blackf: #131313a1;
+    --whitei: #ffffff34;
+    --blacki: #1d1d1d34;
+}
+
+.light-theme{
+    --bg:var(--white);
+    --bgcontainer:var(--whitef);
+    --fontcolor: var(--black);
+    --btnBg:var(--black);
+    --btnFontColor:var(--white);
+    --texFontColor:var(--black);
+    --fotinputtex:var(--blacki)
+    
+}
+.dark-theme {
+    --bg:var(--black);
+    --bgcontainer:var(--blackf);
+    --fontcolor:var(--white);
+    --btnBg:var(--white);
+    --btnFontColor:var(--black);
+    --texFontColor:var(--white);
+    --FontColor:var(--white);
+    --fotinputtex:var(--whitei);
+}
+
 /* cor de fundo */
 
 body {
-    background: linear-gradient(to left,rgb(134, 134, 134), #b8b8b8);
-    background-repeat: no-repeat;
+    background: var(--bg);
+    --color: #e7e7e7;
     min-height: 100vh;
     min-width: 100vw;
     display: flex;
@@ -24,8 +54,9 @@ body {
 
 /* quadrado de login */
 
+
 main.container {
-    background: linear-gradient(to left,rgb(190, 190, 190), #f3f3f3);
+    background: var(--bgcontainer);
     min-width: 420px;
     min-height: 50vh;
     padding: 4rem;
@@ -36,11 +67,11 @@ main.container {
 
 /* texto "Entra" */
 
-main h2 {
+.tex {
     font-weight: 600;
     margin-bottom: 3rem;
     position: relative;
-    color: rgb(19, 19, 19);
+    color:var(--texFontColor);
     font-size: 3rem;
 }
 
@@ -50,7 +81,7 @@ main h2::before {
     content: '';
     position: absolute;
     height: 6px;
-    width: 140px;
+    width: 300px;
     bottom: 3px;
     margin-top: 1rem;
     margin-bottom: -0.5rem;
@@ -75,15 +106,56 @@ form {
     text-align: left;
     padding: 0.4rem;
     border-radius: 4px;
-    cursor: pointer; 
+    cursor: pointer;
+    color: rgba(233, 233, 233, 0.904);
+    
 } 
- 
+  */
 /* cor do texto"voltar" */
 
 .back a {
     text-decoration: none;      
     color: rgba(233, 233, 233, 0.904);
 }   
+
+.back i {
+    text-decoration: none;      
+    color: rgba(233, 233, 233, 0.904);
+}   
+
+.input-field {
+    position: relative;
+}
+
+form .input-field:first-child {
+    margin-bottom: 1.5rem;
+}
+
+/* butão dark */
+
+.dark {
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    background: linear-gradient(45deg, #010e7a,#5162fd);
+    font-size: 0.9rem;
+    text-align: right;
+    padding: 0.4rem;
+    border-radius: 4px;
+    cursor: pointer; 
+} 
+
+.dark a {
+    text-decoration: none;      
+    color: rgba(255, 255, 255, 0.904);
+}   
+
+.btn {
+    border: none;
+    color: var(--btnFontColor);
+}
+
+
 .input-field {
     position: relative;
 }
@@ -128,7 +200,7 @@ form .input-field:first-child {
 /* caixa do input digite seu  */
 
 .input-field input {
-    background: linear-gradient(to left,rgb(190, 190, 190), #f3f3f3);
+    background:var(--fotinput);
     width: 100%;
     height: 45px;
     padding: 0 0.5rem;
@@ -139,11 +211,11 @@ form .input-field:first-child {
     border-radius: 8px;
     outline: none;
     font-size: 0.9rem;
-    color: rgba(14, 14, 14, 0.822);
+    --FontColor:var(--black);
 }
 
 .input-field input::placeholder {
-    color: rgba(2, 2, 2, 0.644);
+    color: var(--fotinputtex);
 }
 
 /* butão entra */
@@ -176,8 +248,8 @@ form input[type="submit"]:hover {
 /* ou conecte  */
 
 .footer span {
-    color: rgba(219, 219, 219, 0.7);
-    font-size: 0.9rem;
+    color: rgba(43, 43, 43, 0.7);
+    font-size: 1rem;
     text-align: center;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
