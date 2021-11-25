@@ -7,6 +7,39 @@
     font-family: "Andada Pro", sans-serif;
 }
 
+
+:root {
+    --white: #ffffff;
+    --whitef: #ececec;
+    --black: #1d1d1d;
+    --blackf: #131313a1;
+    --whitei: #ffffff34;
+    --blacki: #1d1d1d34;
+}
+
+.light-theme{
+    --bg:var(--white);
+    --pag02Background:var(--white);
+    --fontcolor: var(--black);
+    --fontcolorcp: var(--black);
+
+    
+}
+.dark-theme {
+    --bg:var(--black);
+    --pag02Background:var(--black);
+    --fontcolor:var(--white);
+    --fontcolorcp:var(--white);
+   
+}
+
+body {
+    background: var(--bg);
+    --color: #e7e7e7;
+}
+
+
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -61,7 +94,7 @@ main.pag02 .boxviagem {
     margin-top: 1rem;
     align-items: center;
     text-align: center;
-    background:whitesmoke;
+    background: var(--pag02Background);
     box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.274);
     border-radius: 12px;
     max-height: 250px;
@@ -75,7 +108,7 @@ main.pag02 .boxviagem {
 main.pag02 .boxviagem .pont {
     display: flex;
     flex-direction: row;
-    color: #242424;
+    color: var(--fontcolor);
     padding: 2rem 0;
     margin-left: 10px;
 }
@@ -96,7 +129,7 @@ main.pag02 .boxviagem .pont .passagens {
 main.pag02 .boxviagem .inputs {
     display: flex;
     flex-direction: row;
-    color: #242424;
+    color: var(--fontcolor);
     background:rgba(61, 61, 61, 0.11);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
@@ -111,7 +144,7 @@ main.pag02 .boxviagem .inputs {
 }
 
 main.pag02 .boxviagem .inputs input {
-    background:#c2c1c1af;
+    background:#c2c1c10e;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     width: 95%;
@@ -167,32 +200,16 @@ main.pag02 .boxviagem button {
     box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.274);
     border-radius: 8px;
 }
-.btn {
-    color: #242424;
-}
-.light-theme{
-    --btnColor: var(--#242424);
-    --pag02Background: var(--#F6F9FF);
-    --companhiasColor: var(--#242424);
-    --containerbackground: var(--#F6F9FF);
-
-}
-
-.dark-theme{
-    --pag02Background: var(--#242424);
-    --companhiasColor: var(--whitesmoke);
-    --containerbackground: var(--#f0f0f0); 
-        
+body {
+    background: #1d1d1d;
 }
 
 main.pag02 .companhias {
     font-family: sans-serif;
-    color: #181818a3;
+    color: var(--fontcolorcp);
     font-size: 2rem;
     margin-top: 3rem;
     font-weight: 600;
-
-
 }
 
 
