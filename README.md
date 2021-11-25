@@ -1,20 +1,22 @@
 # projeto html,css e js
-Este é um formulário de login simples e responsivo feito com HTML e CSS usando transições.
+Este é um formulário de login simples e responsivo feito com HTML, CSS e JSscript usando transições.
 Este projeto foi feito para uma atividade da facudade
 
 Resultado Final
 
 ![log](https://user-images.githubusercontent.com/92549577/142514671-3d52620e-6593-4519-bf23-59d5d5d93486.jpeg)
 
-
+![Pag Dark](https://user-images.githubusercontent.com/92549577/143490131-1f3fb14a-daba-4a7f-b77b-91e12209d94b.jpg)
 
 com sua versão mobile final
 
 
 
 
+
 ![log mobile](https://user-images.githubusercontent.com/92549577/142514743-9d434ed8-81a6-4213-9f60-1704d01d9989.jpeg)
 
+![Mobile Dark](https://user-images.githubusercontent.com/92549577/143490266-386ef131-1916-4510-8518-05fb37f7e927.jpeg)
 
 
 
