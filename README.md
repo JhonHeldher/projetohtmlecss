@@ -14,13 +14,12 @@ Resultado Final.
 com sua versão mobile final.
 
 
+![Login Mobile](https://user-images.githubusercontent.com/92549577/143493007-8c216972-3e11-4121-80e2-c3cf2cbbbf71.jpg)
+
+![Mobile Dark](https://user-images.githubusercontent.com/92549577/143493015-252b1a99-6541-43b7-a8dc-23336531fad2.jpg)
 
 
-![Login Mobile](https://user-images.githubusercontent.com/92549577/143492593-50d5a4ce-cd4a-49e4-861a-9766ae8ac332.jpeg)
 
-
-
-![Mobile Dark](https://user-images.githubusercontent.com/92549577/143490266-386ef131-1916-4510-8518-05fb37f7e927.jpeg)
 
 
 
@@ -41,11 +40,9 @@ Uma tela da ‘Pag’ e seu modo dark.
 com sua versão mobile final.
 
 
-![Login Mobile](https://user-images.githubusercontent.com/92549577/143492842-fe5bc611-b527-4453-a0ef-d3f1877d0d9c.jpg)
+![Pag Mobile](https://user-images.githubusercontent.com/92549577/143493042-a7062665-10d2-4a04-8838-9f5b6fb8c73d.jpg)
 
-
-![Mobile Dark](https://user-images.githubusercontent.com/92549577/143492855-2ede2c2f-ca20-45c9-aeb8-794620b6c432.jpg)
-
+![Pag Mobile Dark](https://user-images.githubusercontent.com/92549577/143493164-0f05f573-155b-42b9-90aa-3daa1318e9a5.jpg)
 
 
 
