@@ -39,9 +39,7 @@ Uma tela dA ‘Pag’ e seu modo dark.
 
 com sua versão mobile final.
 
-
-
-![Pag Mobile](https://user-images.githubusercontent.com/92549577/142515052-76d5eef5-5960-4b86-bda7-f4fcb3edc0f0.jpg)
+![Pag Mobile](https://user-images.githubusercontent.com/92549577/143491579-c4ae0644-b881-4945-af53-288d71b3b5a3.jpg)
 ![Pag Mobile Dark](https://user-images.githubusercontent.com/92549577/143490579-4891535f-3858-4182-b709-4abc18b7d06d.jpg)
 
 
