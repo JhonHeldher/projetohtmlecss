@@ -15,7 +15,6 @@ com sua versão mobile final.
 
 
 ![Login Mobile](https://user-images.githubusercontent.com/92549577/143493007-8c216972-3e11-4121-80e2-c3cf2cbbbf71.jpg)
-
 ![Mobile Dark](https://user-images.githubusercontent.com/92549577/143493015-252b1a99-6541-43b7-a8dc-23336531fad2.jpg)
 
 
@@ -41,7 +40,6 @@ com sua versão mobile final.
 
 
 ![Pag Mobile](https://user-images.githubusercontent.com/92549577/143493042-a7062665-10d2-4a04-8838-9f5b6fb8c73d.jpg)
-
 ![Pag Mobile Dark](https://user-images.githubusercontent.com/92549577/143493164-0f05f573-155b-42b9-90aa-3daa1318e9a5.jpg)
 
 
