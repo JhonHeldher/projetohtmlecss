@@ -19,7 +19,7 @@
         
 
 
-    <body class="light-theme">
+    <body class="dark-theme">
 
         <div class="container">
             <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
@@ -29,7 +29,7 @@
               </a>
         
               <ul class="nav nav-pills">
-                <li class="nav-item-dark"><a href="#" class="btn">Dark</a></li>
+                <li class="nav-item-dark"><a href="#" class="btn">Light</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Passaporte</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Minhas Viagens</a></li>
                 <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Iniciar Sessão</a></li>
